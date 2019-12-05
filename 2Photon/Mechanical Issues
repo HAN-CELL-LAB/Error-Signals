@@ -1,0 +1,5 @@
+Problem:
+The Mai-Tai controlled laser box doesn't enter pulsing mode when powered up.
+
+Solution:
+Adjust the wavelength, laser box sometimes has trouble acheiving the default wavelength and needs to adjust power to a different wavelength first. Then you can set back to desired wavelength.
