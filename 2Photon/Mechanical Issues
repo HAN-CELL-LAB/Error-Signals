@@ -1,5 +1,14 @@
 Problem:
 The Mai-Tai controlled laser box doesn't enter pulsing mode when powered up.
-
 Solution:
 Adjust the wavelength, laser box sometimes has trouble acheiving the default wavelength and needs to adjust power to a different wavelength first. Then you can set back to desired wavelength.
+
+Problem:
+External solenoid shutter fails to open upon triggering.
+Solution:
+Confirm that Solenoid shutter controller is in Trigger mode. Unplug and plug back in the Neurolabware to solenoid shutter controller connection.
+
+Problem:
+When Focusing, scanbox throws error "AlazarWaitAsync... Trigger Connection Failed"
+Solution:
+Restart computer. Usually this error occurs if AlazarDSO interface was opened. Opening that interface messes up scanbox, for some reason, and requires that you reset the system by restarting the computer before scanbox will work again.
